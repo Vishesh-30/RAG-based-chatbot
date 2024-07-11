@@ -12,7 +12,7 @@ This project aims to develop a versatile and intelligent chatbot that utilizes a
 
 ## Project Structure
 
-```plaintext
+```
 chatbot/
 │
 ├── data/
@@ -31,5 +31,47 @@ chatbot/
 ├── .gitignore
 ├── requirements.txt
 └── README.md
+
+```
+
+
+## Setup Instructions
+1. Local Development Environment
+Clone the Repository:
+```
+https://github.com/Vishesh-30/RAG-based-chatbot
+```
+
+3. Set Up Virtual Environment:
+```
+  python -m venv chatbot-env
+  chatbot-env\Scripts\activate  # Windows
+  source chatbot-env/bin/activate  # Mac/Linux
+```
+
+4. Install Dependencies:
+```
+pip install -r requirements.txt
+```
+
+5. Setup config file
+```
+import os
+
+
+class Config:
+
+    EMBEDDING_MODEL = ''
+    SUMMARIZATION_MODEL = ''
+    HUGGINGFACE_TOKEN = ''
+
+```
+
+6. Run the streamlit based frontend
+```
+streamlit run app.py
+````
+
+
 
 
