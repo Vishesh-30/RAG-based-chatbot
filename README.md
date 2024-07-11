@@ -1,4 +1,4 @@
-# WordPress Chatbot with Retrieval-Augmented Generation (RAG) and Chain of Thought (CoT) Strategy
+# Chatbot with Retrieval-Augmented Generation (RAG) and Chain of Thought (CoT) Strategy
 
 ## Overview
 
